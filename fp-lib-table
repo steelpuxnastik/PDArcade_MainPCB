@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name promicro)(type KiCad)(uri "D:/Google Drive/Hatsune miku arcade controller/DIVA_promicro/DIVA_promicro/components/ProMicroKiCad-master/promicro.pretty")(options "")(descr ""))
+  (lib (name projectdivalogo)(type KiCad)(uri "D:/Google Drive/Hatsune miku arcade controller/DIVA_promicro/projectdivalogo")(options "")(descr ""))
+  (lib (name logos)(type KiCad)(uri "D:/Google Drive/Hatsune miku arcade controller/DIVA_promicro/DIVA_promicro/logos")(options "")(descr ""))
+)
