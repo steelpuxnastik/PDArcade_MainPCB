@@ -19,7 +19,7 @@ Comment8 ""
 Comment9 ""
 $EndDescr
 $Comp
-L promicro:ProMicro ProMicro1
+L DIVA_promicro-rescue:ProMicro-promicro ProMicro1
 U 1 1 5DC18EEE
 P 5750 2150
 F 0 "ProMicro1" H 5750 3187 60  0000 C CNN
@@ -237,7 +237,7 @@ $EndComp
 Wire Wire Line
 	4400 1200 4400 1500
 Wire Wire Line
-	4400 1500 5050 1500
+	4400 1500 4616 1500
 $Comp
 L Connector_Generic:Conn_01x02 I2C_Conn1
 U 1 1 5DC8E8E6
@@ -528,4 +528,17 @@ F 3 "~" H 8750 3400 50  0001 C CNN
 	1    8750 3400
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:R R4
+U 1 1 5E4186A0
+P 4766 1500
+F 0 "R4" V 4559 1500 50  0000 C CNN
+F 1 "500" V 4650 1500 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4696 1500 50  0001 C CNN
+F 3 "~" H 4766 1500 50  0001 C CNN
+	1    4766 1500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4916 1500 5050 1500
 $EndSCHEMATC
